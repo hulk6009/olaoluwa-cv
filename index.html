@@ -5,87 +5,196 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Olaoluwa Kolapo Onabowale - CV</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    ul.custom-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul.custom-list li::before {
+      content: "•";
+      color: #3b82f6;
+      font-weight: bold;
+      display: inline-block; 
+      width: 1em;
+      margin-left: -1em;
+    }
+  </style>
 </head>
-<body class="bg-gray-50 text-gray-900 font-sans p-6">
-  <div class="max-w-4xl mx-auto bg-white shadow-md rounded-xl p-8">
-    <div class="text-center">
-      <h1 class="text-3xl font-bold text-blue-700">Olaoluwa Kolapo Onabowale</h1>
-      <p>Greater Manchester, UK</p>
-      <p>Email: <a href="mailto:oonabowale@gmail.com" class="text-blue-600">oonabowale@gmail.com</a> | Mobile: +44 7377 151660</p>
-      <div class="mt-4">
-        <a href="Olaoluwa_Onabowale_CV.pdf" class="bg-blue-600 text-white px-4 py-2 rounded-md mr-2" download>Download PDF</a>
-        <a href="Olaoluwa_Onabowale_CV.docx" class="bg-green-600 text-white px-4 py-2 rounded-md" download>Download DOCX</a>
-      </div>
+<body class="bg-gray-50 text-gray-800">
+  <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden my-8">
+    <!-- Header Section -->
+    <div class="bg-blue-700 text-white p-6 text-center">
+      <h1 class="text-3xl font-bold mb-2">Olaoluwa Kolapo Onabowale</h1>
+      <p class="text-lg">Network Engineer</p>
     </div>
-
-    <section class="mt-8">
-      <h2 class="text-2xl font-semibold border-b pb-1 mb-2">Profile</h2>
-      <p>Experienced Network Engineer with over 4 years of hands-on expertise in configuring enterprise networks using Cisco, Fortinet, and Meraki technologies. Skilled in routing protocols (BGP, OSPF), VPNs, firewall policies, and cloud platforms (Azure, AWS). Proven ability to troubleshoot complex MPLS and VRF setups in ISP environments.</p>
-    </section>
-
-    <section class="mt-8">
-      <h2 class="text-2xl font-semibold border-b pb-1 mb-2">Key Skills</h2>
-      <p>Cisco, Fortinet, Meraki, BGP, OSPF, VPN (SSL/IPsec), Route Maps, Prefix Lists, ACLs, DNS/DHCP, Azure, AWS, VMware, Nutanix, Wireshark, SNMP Monitoring, Traffic Shaping, Network Security, VLANs, MPLS, Cloud Infrastructure</p>
-    </section>
-
-    <section class="mt-8">
-      <h2 class="text-2xl font-semibold border-b pb-1 mb-4">Professional Experience</h2>
-
-      <div class="mb-6">
-        <h3 class="text-xl font-bold">Network Engineer – M247 Ltd, Manchester</h3>
-        <p class="text-sm text-gray-600">October 2022 – Present</p>
-        <ul class="list-disc list-inside mt-2 space-y-1">
-          <li>Configured and troubleshot FortiGate firewalls, implementing VPNs, NAT, and access control policies for secure remote access.</li>
-          <li>Managed Cisco devices for VLANs, dynamic/static routing, and Layer 3 security across customer networks.</li>
-          <li>Deployed ACLs, prefix lists, and route maps in BGP to control route advertisement and enforce segmentation policies.</li>
-          <li>Implemented traffic shaping and policing using class and policy maps to meet SLAs and reduce peak congestion.</li>
-          <li>Configured SolarWinds for SNMP monitoring and custom alerting across Cisco, Fortinet, and Meraki environments.</li>
-          <li>Used FortiAuthenticator, FortiAnalyzer, and FortiManager for identity, visibility, and centralized firewall management.</li>
-          <li>Utilized Wireshark and packet captures to identify DNS, VoIP, and latency issues.</li>
-          <li>Managed Meraki MX/MR/MS devices including VPN setup, traffic shaping, and Layer 3 rule configuration.</li>
-          <li>Provided remote support via SecureCRT and RDP, documenting all changes in Visio and Draw.io diagrams.</li>
-        </ul>
+    
+    <div class="p-8">
+      <!-- Contact Information -->
+      <div class="flex flex-wrap justify-center gap-4 mb-6 text-sm">
+        <div class="flex items-center">
+          <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+          </svg>
+          Greater Manchester, UK
+        </div>
+        <div class="flex items-center">
+          <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+          </svg>
+          <a href="mailto:oonabowale@gmail.com" class="hover:underline">oonabowale@gmail.com</a>
+        </div>
+        <div class="flex items-center">
+          <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+          </svg>
+          +44 7377 151660
+        </div>
       </div>
 
-      <div class="mb-6">
-        <h3 class="text-xl font-bold">Tech Support / Network Administrator – Hyperia Ltd, Lagos</h3>
-        <p class="text-sm text-gray-600">November 2021 – June 2022</p>
-        <ul class="list-disc list-inside mt-2 space-y-1">
-          <li>Used PRTG to monitor networks and troubleshoot subnet issues, reducing downtime and false alarms.</li>
-          <li>Set up and supported VPNs across Azure, Fortinet, and Palo Alto platforms.</li>
-          <li>Managed cloud infrastructure (Azure, AWS, VMware, Nutanix) for production workloads.</li>
-          <li>Monitored data/voice traffic via Mutiny and Allot, enforcing QoS policies.</li>
-          <li>Supported Aruba, Meraki, and TP-Link wireless deployments.</li>
-          <li>Troubleshot SIP/RTP voice quality issues via firewall and NAT rules.</li>
-          <li>Delivered Tier 2 support and documented tickets, shift logs, and handovers.</li>
-        </ul>
+      <!-- Download Buttons -->
+      <div class="flex justify-center gap-4 mb-8">
+        <a href="Olaoluwa_Onabowale_CV.pdf" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md flex items-center transition duration-300" download>
+          <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+          </svg>
+          Download PDF
+        </a>
+        <a href="Olaoluwa_Onabowale_CV.docx" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md flex items-center transition duration-300" download>
+          <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+          </svg>
+          Download DOCX
+        </a>
       </div>
 
-      <div class="mb-6">
-        <h3 class="text-xl font-bold">Technical Support Engineer – Hoop Telecoms Ltd, Lagos</h3>
-        <p class="text-sm text-gray-600">August 2020 – October 2021</p>
-        <ul class="list-disc list-inside mt-2 space-y-1">
-          <li>Resolved Azure VNET issues including subnet overlaps and NSG misconfigurations.</li>
-          <li>Designed Wi-Fi networks using Ubiquiti and Mikrotik for enterprise clients.</li>
-          <li>Maintained customer relationships through timely incident resolution.</li>
-          <li>Installed GPON/ONU and configured fiber broadband for residential/commercial users.</li>
-          <li>Supported Cisco/Mikrotik devices resolving routing and DHCP issues.</li>
-          <li>Created technical documentation for installations and support processes.</li>
-        </ul>
-      </div>
-    </section>
+      <!-- Profile Section -->
+      <section class="mb-8">
+        <h2 class="text-2xl font-bold text-blue-700 border-b-2 border-blue-200 pb-2 mb-4">Professional Profile</h2>
+        <p class="text-gray-700 leading-relaxed">
+          Experienced Network Engineer with over 4 years of hands-on expertise in configuring enterprise networks using Cisco, Fortinet, and Meraki technologies. Skilled in routing protocols (BGP, OSPF), VPNs, firewall policies, and cloud platforms (Azure, AWS). Proven ability to troubleshoot complex MPLS and VRF setups in ISP environments.
+        </p>
+      </section>
 
-    <section class="mt-8">
-      <h2 class="text-2xl font-semibold border-b pb-1 mb-2">Education & Certifications</h2>
-      <ul class="list-disc list-inside mt-2 space-y-1">
-        <li>Bachelor's in Electrical Electronics Engineering – Olabisi Onabanjo University, Nigeria (2018)</li>
-        <li>CCNA – Cisco Certified Network Associate (Oct 2024)</li>
-        <li>ECMS – Cisco Meraki Solutions Specialist (Apr 2025)</li>
-        <li>AZ-900 – Microsoft Azure Fundamentals (Oct 2024)</li>
-        <li>SC-900 – Microsoft Security, Compliance & Identity Fundamentals (Dec 2023)</li>
-        <li>Certified in Cybersecurity – ISC2 CC (Jan 2024)</li>
-      </ul>
-    </section>
+      <!-- Key Skills Section -->
+      <section class="mb-8">
+        <h2 class="text-2xl font-bold text-blue-700 border-b-2 border-blue-200 pb-2 mb-4">Key Skills</h2>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Cisco Systems</span>
+          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Network Infrastructure and Security</span>
+          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">VPN (SSL, IPsec)</span>
+          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Customer Service</span>
+          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Troubleshooting</span>
+          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Network Segmentation</span>
+          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Network Segmentation</span>
+          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">DNS/DHCP</span>
+          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Route Maps</span>
+          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Wireshark</span>
+          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Access Lists</span>
+          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Routing Protocols</span>
+        </div>
+      </section>
+
+      <!-- Professional Experience -->
+      <section class="mb-8">
+        <h2 class="text-2xl font-bold text-blue-700 border-b-2 border-blue-200 pb-2 mb-4">Professional Experience</h2>
+
+        <!-- Job 1 -->
+        <div class="mb-6">
+          <div class="flex justify-between items-start">
+            <h3 class="text-xl font-semibold">Network Engineer</h3>
+            <span class="text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded">Oct 2022 - Present</span>
+          </div>
+          <p class="text-gray-600 font-medium mb-2">M247 Ltd, Manchester</p>
+          <ul class="custom-list space-y-2 text-gray-700">
+            <li>Configured and troubleshot FortiGate firewalls, implementing VPNs, NAT, and access control policies for secure remote access.</li>
+            <li>Managed Cisco devices for VLANs, dynamic/static routing, and Layer 3 security across customer networks.</li>
+            <li>Deployed ACLs, prefix lists, and route maps in BGP to control route advertisement and enforce segmentation policies.</li>
+            <li>Implemented traffic shaping and policing using class and policy maps to meet SLAs and reduce peak congestion.</li>
+            <li>Configured SolarWinds for SNMP monitoring and custom alerting across Cisco, Fortinet, and Meraki environments.</li>
+            <li>Used FortiAuthenticator, FortiAnalyzer, and FortiManager for identity, visibility, and centralized firewall management.</li>
+            <li>Utilized Wireshark and packet captures to identify DNS, VoIP, and latency issues.</li>
+            <li>Managed Meraki MX/MR/MS devices including VPN setup, traffic shaping, and Layer 3 rule configuration.</li>
+            <li>Provided remote support via SecureCRT and RDP, documenting all changes in Visio and Draw.io diagrams.</li>
+          </ul>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="mb-6">
+          <div class="flex justify-between items-start">
+            <h3 class="text-xl font-semibold">Tech Support / Network Administrator</h3>
+            <span class="text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded">Nov 2021 - Jun 2022</span>
+          </div>
+          <p class="text-gray-600 font-medium mb-2">Hyperia Ltd, Lagos</p>
+          <ul class="custom-list space-y-2 text-gray-700">
+            <li>Used PRTG to monitor networks and troubleshoot subnet issues, reducing downtime and false alarms.</li>
+            <li>Set up and supported VPNs across Azure, Fortinet, and Palo Alto platforms.</li>
+            <li>Managed cloud infrastructure (Azure, AWS, VMware, Nutanix) for production workloads.</li>
+            <li>Monitored data/voice traffic via Mutiny and Allot, enforcing QoS policies.</li>
+            <li>Supported Aruba, Meraki, and TP-Link wireless deployments.</li>
+            <li>Troubleshot SIP/RTP voice quality issues via firewall and NAT rules.</li>
+            <li>Delivered Tier 2 support and documented tickets, shift logs, and handovers.</li>
+          </ul>
+        </div>
+
+        <!-- Job 3 -->
+        <div class="mb-6">
+          <div class="flex justify-between items-start">
+            <h3 class="text-xl font-semibold">Technical Support Engineer</h3>
+            <span class="text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded">Aug 2020 - Oct 2021</span>
+          </div>
+          <p class="text-gray-600 font-medium mb-2">Hoop Telecoms Ltd, Lagos</p>
+          <ul class="custom-list space-y-2 text-gray-700">
+            <li>Resolved Azure VNET issues including subnet overlaps and NSG misconfigurations.</li>
+            <li>Designed Wi-Fi networks using Ubiquiti and Mikrotik for enterprise clients.</li>
+            <li>Maintained customer relationships through timely incident resolution.</li>
+            <li>Installed GPON/ONU and configured fiber broadband for residential/commercial users.</li>
+            <li>Supported Cisco/Mikrotik devices resolving routing and DHCP issues.</li>
+            <li>Created technical documentation for installations and support processes.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Education & Certifications -->
+      <section>
+        <h2 class="text-2xl font-bold text-blue-700 border-b-2 border-blue-200 pb-2 mb-4">Education & Certifications</h2>
+        <div class="space-y-4">
+          <div>
+            <h3 class="font-semibold">Bachelor's in Electrical Electronics Engineering</h3>
+            <p class="text-gray-600">Olabisi Onabanjo University, Nigeria (2018)</p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-gray-50 p-3 rounded-lg border border-gray-200">
+              <h4 class="font-medium">CCNA – Cisco Certified Network Associate</h4>
+              <p class="text-sm text-gray-600">Oct 2024</p>
+            </div>
+            <div class="bg-gray-50 p-3 rounded-lg border border-gray-200">
+              <h4 class="font-medium">ECMS – Cisco Meraki Solutions Specialist</h4>
+              <p class="text-sm text-gray-600">Apr 2025</p>
+            </div>
+            <div class="bg-gray-50 p-3 rounded-lg border border-gray-200">
+              <h4 class="font-medium">AZ-900 – Microsoft Azure Fundamentals</h4>
+              <p class="text-sm text-gray-600">Oct 2024</p>
+            </div>
+            <div class="bg-gray-50 p-3 rounded-lg border border-gray-200">
+              <h4 class="font-medium">SC-900 – Microsoft Security, Compliance & Identity Fundamentals</h4>
+              <p class="text-sm text-gray-600">Dec 2023</p>
+            </div>
+            <div class="bg-gray-50 p-3 rounded-lg border border-gray-200">
+              <h4 class="font-medium">Certified in Cybersecurity – ISC2 CC</h4>
+              <p class="text-sm text-gray-600">Jan 2024</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
 </body>
 </html>
